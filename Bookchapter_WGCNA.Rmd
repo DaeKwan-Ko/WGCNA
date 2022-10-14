@@ -9,10 +9,7 @@ output: html_document
 
 ```{r setup, include=FALSE, echo=FALSE}
 require("knitr")
-# for macbook pro
-# opts_knit$set(root.dir = "/Users/daekwanko/Google Drive/My Drive/Research/1_Brandizzi Lab_MSU/Other manuscripts/Book chapter method_Plant Proteostasis/WGCNA practice/")
-# for iMAC
-opts_knit$set(root.dir = "/Users/dkko/Google Drive/My Drive/Research/1_Brandizzi Lab_MSU/Other manuscripts/Book chapter method_Plant Proteostasis/WGCNA practice/")
+opts_knit$set(root.dir = "/Users/LOCAL DIRECTORY")
 # By default, the working directory for R code chunks is the directory that contains the Rmd document. 
 rm(list=ls()) # Remove everything from the R environment. Important if you have some variables saved already
 # Display the current working directory
